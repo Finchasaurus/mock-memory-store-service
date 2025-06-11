@@ -64,3 +64,5 @@ function MockMemoryStoreHashMap:UpdateAsync(key, transformFunction, expiration)
 		return nil
 	end
 end
+
+return MockMemoryStoreHashMap
